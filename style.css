@@ -1,0 +1,79 @@
+img{
+    width: 100%;
+    box-shadow: inset 2px 2px 15px black;
+}
+div{
+    border-radius: 40px;
+    box-shadow: 2px 2px 40px;
+    background-color: rgba(0, 0, 0, 0.797);
+    /* 1 */
+}
+#menu{
+    background-color: rgba(5, 160, 0, 0.37); 
+    width: 315px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    border-radius: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 227, 66);
+    font-size: 60px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    /* 2 */
+}
+body{
+    background-image: url(pikb29.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#content{
+    width: calc(100% - 315px);
+    margin-left: 315px;
+}
+a{
+    line-height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Alexandria', sans-serif;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 15px black;
+    /* 9 */
+    background-color: rgb(255, 238, 0);
+    /* 9 */
+    border-radius: 20px;
+    /* 10 */
+    color: rgb(0, 0, 0);
+
+}
+ul{
+    list-style-type: "\1F31E";
+    color: black;
+    /* 3 */
+    /* 6 */
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 20px;
+    /* 7 */
+}
+h2 /* 4 */ {
+    font-family: 'Alexandria', sans-serif;
+    /* 5 */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: white;
+}
